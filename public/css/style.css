@@ -1,3 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     background-color: #EAC926;
 }
+
+.home__button{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #1259c3;
+    color: #fff;
+    border-radius: 10px;
+    margin: 15px 0 30px;
+}
+
+.credito{
+    display: inline-block;
+}
+
+.p-0{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.home__footer{
+    text-align: center;
+}
+
+
