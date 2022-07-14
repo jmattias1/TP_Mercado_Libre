@@ -1,10 +1,17 @@
 *{
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     background-color: #EAC926;
 }
+
+.home__header{
+    margin-left: 10px;
+}
+
 
 .home__button button{
     width: 40px;
@@ -24,8 +31,39 @@ body{
     padding-top: 15px;
 }
 
+.credito1{
+    text-align: center;
+}
+
 .credito{
     display: inline-block;
+}
+
+.home__main{
+    background-color: #ebebeb;
+}
+
+.home__header__banner{
+}
+
+
+.card{
+    
+    background-color: #fff;
+}
+
+hr{
+    border: 1px solid #c9c9c9;
+}
+
+.truck{
+    color: #39b54a;
+    padding: 8px;
+    border-radius: 100%;
+    border: 1px solid #39b54a;
+}
+.oferta{
+    color: #39b54a;
 }
 
 .p-0{
@@ -42,12 +80,32 @@ body{
     text-align: left;
 }
 
-.flag{
+.icono{
     color: #1259c3;
     width: 50px;
     height: 50px;
     font-size: 32px;
     margin: 15px 0 -25px;
 }
+
+@media (min-width: 330px){
+    .card{
+        width: 20%;
+    }
+    .home__button{
+        display: none;
+    }
+}
+
+@media (max-width: 320px){
+    .card{
+        width: 90%;
+    }
+    .p-0{
+        display: none;
+    }
+}
+
+
 
 
