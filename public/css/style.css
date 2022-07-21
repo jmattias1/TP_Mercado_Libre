@@ -4,12 +4,57 @@
     margin: 0;
 }
 
+.flag{
+    border: 1px solid red;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+    flex-flow: row;
+    flex-grow: 3;
+}
+
+
+.over{
+    overflow-wrap: break-word ;
+}
+
+.linea{
+    align-items: center;
+    justify-content: end;
+}
+
+.m-left{
+    margin-left: 10px;
+}
+
+.m-top{
+    margin-top: 10px;
+}
+
+.position{
+    position:absolute;
+    width: 20% ;
+}
+
+.justi-end{
+    justify-content: end;
+}
+
 body{
     background-color: #EAC926;
 }
 
+.header{
+    width: 100%;
+}
+
 .home__header{
-    margin-left: 10px;
+    padding: 40px ;
 }
 
 
@@ -43,31 +88,43 @@ body{
     background-color: #ebebeb;
 }
 
-
+.j-between{
+    justify-content: space-between ;
+}
 
 
 .card{
-    
     background-color: #fff;
+}
+
+.img-card{
+   max-width: 80%;
+   min-width: 50%;
 }
 
 hr{
     border: 1px solid #c9c9c9;
 }
-
-.truck{
+ 
+.truck{ 
+    background-color: white;
     color: #39b54a;
     padding: 8px;
     border-radius: 100%;
     border: 1px solid #39b54a;
+    z-index: 2;
+    margin-right: 10px;
 }
 .oferta{
     color: #39b54a;
 }
 
-.p-0{
-    padding-left: 0;
-    margin-left: 0;
+.p-bottom{
+    padding-bottom: 20px;
+}
+
+.p-10{
+    padding: 10px;
 }
 
 .home__footer{
