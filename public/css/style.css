@@ -8,6 +8,42 @@
     border: 1px solid red;
 }
 
+.j-center{
+    justify-content: center;
+}
+
+.p-left{
+    padding-left: 10px;
+}
+
+.checkbox{
+    border: 1px solid red !important;
+    width: 100px;
+    display: inline-block;
+}
+
+.radio{
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.enviar{
+    background-color:#1259c3;
+    color: white;
+    border: none;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.w-40{
+    width: 40vw;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
 .d-flex{
     display: flex;
 }
@@ -34,6 +70,18 @@
 
 .m-top{
     margin-top: 10px;
+}
+
+.m-top25{
+    margin-top: 25px;
+}
+
+.m-top50{
+    margin-top: 50px;
+}
+
+.m-botton25{
+    margin-bottom: 25px;
 }
 
 .position{
@@ -151,6 +199,7 @@ hr{
     .home__button{
         display: none;
     }
+
 }
 
 @media (max-width: 320px){
@@ -158,6 +207,12 @@ hr{
         width: 90%;
     }
     .p-0{
+        display: none;
+    } 
+    .credito1{
+        display: none;
+    }
+    .nav-web{
         display: none;
     }
 }

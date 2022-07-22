@@ -13,21 +13,45 @@
 
 <body>
     <header>
-        <h1>login</h1>
+        <div class="d-flex j-between home__header">
+            <div>
+                <a href="/"><img width="185" src="/images/logo-mercado-liebre.svg" alt="logo"></a>
+            </div>
+            <div>
+                <form action="">
+                    <input placeholder="Buscar productos, marcas" type="text">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="credito1">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <p class="credito">Compra en coutas y sin tarjeta de credito</p>
+            </div>
+        </div>
+        <nav class="d-flex j-between p-bottom nav-web">
+            <ul class="d-flex" type="none">
+                <li><a class="p-10" href="">Ofertas</a></li>
+                <li><a class="p-10" href="">Tiendas Oficiales</a></li>
+                <li><a class="p-10" href="">Vender</a></li>
+                <li><a class="p-10" href="">Ayuda</a></li>
+            </ul>
+            <ul class="d-flex" type="none">
+                <li><a class="p-10" href="/register">Crea tu cuenta</a><i class="fa-solid fa-address-card"></i></li>
+                <li><a class="p-10" href="/login">Ingresa</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a class="p-10" href="">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav>
+        <div class="home__button">
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
     </header>
-    <main>
-        <form action="/login.html" method="post">
-            <p>
-                <label for="name">Nombre de usuario</label>
-                <input type="text" name="nome">
-            </p>
-            <p>
-                <label for="password">Elegi tu contraseña</label>
-                <input type="text" name="password">
-            </p>
-            <p>
-                <input type="submit" value="Enviar">
-            </p>
+    <main class="home__main d-flex a-center j-center">
+        <form class=" w-40 d-flex flex-column "  action="/login.html" method="get">
+                <label for="name"></label>
+                <input class="m-top25 radio p-left" placeholder="Nombre de usuario" type="text">
+                <label for="password"></label>
+                <input class="m-top50 radio p-left" placeholder="Elegi tu contraseña" type="text">
+                <input class="enviar m-top50 m-botton25" type="submit" value="Enviar" a>
         </form>
     </main>
 
