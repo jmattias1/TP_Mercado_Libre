@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+
+
 .flag{
     border: 1px solid red;
 }
@@ -93,7 +95,7 @@
     justify-content: end;
 }
 
-body{
+.body{
     background-color: #EAC926;
 }
 
